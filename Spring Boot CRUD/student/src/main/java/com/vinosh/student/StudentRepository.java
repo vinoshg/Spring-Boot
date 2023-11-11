@@ -7,5 +7,6 @@ import org.springframework.stereotype.Repository;
 public interface StudentRepository extends JpaRepository<Student, Long> {
 
   List<Student> findByName(String name); //Query DSL
-  List<Student> findByNameOrderBy(String name);
+  List<Student> findByNameOrderByIdDesc(String name);
+  List<Student> findByNameOrderByIdAsc(String name);
 }
