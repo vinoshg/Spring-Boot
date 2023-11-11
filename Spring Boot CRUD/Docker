@@ -1,0 +1,42 @@
+docker run docker_image (docker run hello-world)
+{
+docker search docker_image
+docker pull docker_image
+docker create docker_image
+docker ps -a
+docker start container_id
+docker pause container_id
+docker stop container_id
+}
+docker ps
+docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+
+docker rm container_id
+docker rmi docker_image_id
+------------------------------------------------------------------------
+docker pull openjdk:22-jdk
+docker images
+docker run openjdk:22-jdk
+docker run -dit openjdk:22-jdk (Background run)
+docker run -it openjdk:22-jdk (To open jshell on docker)
+-------------------------------------------------------------------------
+Run Spring Boot App on Docker
+
+docker exec container_name ls -a (docker exec container_id ls -a)
+docker exec container_name ls /tmp
+docker cp target/spring.jar container_name:/tmp (spring.jar - jar file)
+docker exec container_name ls /tmp
+docker commit --change='CMD ["java","-jar","/tmp/spring.jar"]' container_name spring:v1 (creating docker image - spring:v1 and spring app running on docker network)
+docker run -p 8081:8081 spring:v1 (run app on docker with localhost)
+{
+Create Docker file and Include -
+FROM openjdk:22-jdk
+ADD target/spring.jar spring.jar
+ENTRYPOINT ["java","-jar","/tmp/spring.jar"]
+} - After Docker file create, run below command for creating docker image - spring:v2 and spring app running on docker network with localhost
+docker run -p 8081:8081 spring:v2
+
