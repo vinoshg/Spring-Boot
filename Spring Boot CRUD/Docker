@@ -37,6 +37,6 @@ Create Docker file and Include -
 FROM openjdk:22-jdk
 ADD target/spring.jar spring.jar
 ENTRYPOINT ["java","-jar","/tmp/spring.jar"]
-} - After Docker file is created, run below command for creating docker image - spring:v2 and spring app running on docker network with localhost
+} - After Docker file in Spring App is created, run below command for creating docker image - spring:v2 and spring app running on docker network with localhost
 docker run -p 8081:8081 spring:v2
 
