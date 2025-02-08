@@ -1,21 +1,10 @@
-# Project Name
+🔹 **How it Works?**  
+- Clicking on a section in the **Table of Contents** jumps to the respective section in the README.  
 
-## Table of Contents  
-- [🚀 Introduction](#introduction)  
-- [🛠 Installation](#installation)  
-- [📌 Usage](#usage)  
-- [⚙️ Configuration](#configuration)  
+---
 
-## 🚀 Introduction  
-This is the introduction section.  
+### **Which Approach Should You Use?**
+✅ **If you want expandable sections →** **Use `<details>` & `<summary>` (Approach 1)**.  
+✅ **If you want a clickable table of contents →** **Use Internal Links (Approach 2)**.  
 
-## 🛠 Installation  
-Follow these steps to install:  
-1. Step 1  
-2. Step 2  
-3. Step 3  
-
-## 📌 Usage  
-Here are the usage instructions:  
-```bash
-your-command-here
+Both are supported on GitHub! 🚀
