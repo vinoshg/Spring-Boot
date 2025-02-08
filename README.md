@@ -4,7 +4,7 @@
 
 <details>
   <summary>🚀 Introduction</summary>
-  <p>This is the introduction section of the README.</p>
+  This is the introduction section of the README.
 </details>
 
 <details>
