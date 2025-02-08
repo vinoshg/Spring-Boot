@@ -1,32 +1,29 @@
-# 📘 Project Documentation
+# Project Name
 
-## Table of Contents  
-- [🚀 Introduction](#introduction)  
-- [🛠 Installation](#installation)  
-- [📌 Usage](#usage)  
-- [⚙️ Configuration](#configuration)  
+## Sections
 
----
-
-## 🚀 Introduction
 <details>
-  <summary>Click to expand 🚀</summary>
-  
-  This project helps you **maximize efficiency** and **simplify workflows**.  
-  - **Version**: 1.0.0  
-  - **Author**: Your Name  
-  - **License**: MIT  
-
+  <summary>🚀 Introduction</summary>
+  <p>This is the introduction section of the README.</p>
 </details>
 
----
-
-## 🛠 Installation
 <details>
-  <summary>Click to expand 🛠</summary>
+  <summary>🛠 Installation</summary>
+  <p>Follow these steps to install:</p>
+  <ol>
+    <li>Step 1</li>
+    <li>Step 2</li>
+    <li>Step 3</li>
+  </ol>
+</details>
 
-### Step-by-step guide  
-1. **Download the repository**  
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+<details>
+  <summary>📌 Usage</summary>
+  <p>Here are the usage instructions:</p>
+  <pre><code>your command here</code></pre>
+</details>
+
+<details>
+  <summary>⚙️ Configuration</summary>
+  <p>Details about configuration.</p>
+</details>
