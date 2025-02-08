@@ -1,35 +1,32 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Project Documentation</title>
-    <style>
-        .section { cursor: pointer; font-weight: bold; }
-        .content { display: none; margin-left: 20px; }
-    </style>
-</head>
-<body>
-    <h1>Project Documentation</h1>
-    
-    <div class="section" onclick="toggle('intro')">🚀 Introduction</div>
-    <div id="intro" class="content">
-        <p>This is the introduction section.</p>
-    </div>
+# 📘 Project Documentation
 
-    <div class="section" onclick="toggle('install')">🛠 Installation</div>
-    <div id="install" class="content">
-        <p>Follow these steps to install:</p>
-        <ol>
-            <li>Step 1</li>
-            <li>Step 2</li>
-            <li>Step 3</li>
-        </ol>
-    </div>
+## Table of Contents  
+- [🚀 Introduction](#introduction)  
+- [🛠 Installation](#installation)  
+- [📌 Usage](#usage)  
+- [⚙️ Configuration](#configuration)  
 
-    <script>
-        function toggle(id) {
-            var content = document.getElementById(id);
-            content.style.display = (content.style.display === "block") ? "none" : "block";
-        }
-    </script>
-</body>
-</html>
+---
+
+## 🚀 Introduction
+<details>
+  <summary>Click to expand 🚀</summary>
+  
+  This project helps you **maximize efficiency** and **simplify workflows**.  
+  - **Version**: 1.0.0  
+  - **Author**: Your Name  
+  - **License**: MIT  
+
+</details>
+
+---
+
+## 🛠 Installation
+<details>
+  <summary>Click to expand 🛠</summary>
+
+### Step-by-step guide  
+1. **Download the repository**  
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
