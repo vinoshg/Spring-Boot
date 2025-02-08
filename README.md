@@ -1,29 +1,21 @@
 # Project Name
 
-## Sections
+## Table of Contents  
+- [🚀 Introduction](#introduction)  
+- [🛠 Installation](#installation)  
+- [📌 Usage](#usage)  
+- [⚙️ Configuration](#configuration)  
 
-<details>
-  <summary>🚀 Introduction</summary>
-  <p>This is the introduction section of the README.</p>
-</details>
+## 🚀 Introduction  
+This is the introduction section.  
 
-<details>
-  <summary>🛠 Installation</summary>
-  <p>Follow these steps to install:</p>
-  <ol>
-    <li>Step 1</li>
-    <li>Step 2</li>
-    <li>Step 3</li>
-  </ol>
-</details>
+## 🛠 Installation  
+Follow these steps to install:  
+1. Step 1  
+2. Step 2  
+3. Step 3  
 
-<details>
-  <summary>📌 Usage</summary>
-  <p>Here are the usage instructions:</p>
-  <pre><code>your command here</code></pre>
-</details>
-
-<details>
-  <summary>⚙️ Configuration</summary>
-  <p>Details about configuration.</p>
-</details>
+## 📌 Usage  
+Here are the usage instructions:  
+```bash
+your-command-here
