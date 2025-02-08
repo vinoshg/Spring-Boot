@@ -4,10 +4,10 @@
 
 <details>
   <summary>🚀 Introduction</summary>
-  This is the introduction section of the README.
-  ```
-  Hey
-  ```
+  <p>This is the introduction section of the README.</p>
+  <pre><code> 
+    Hey 
+  </code></pre>
 </details>
 
 <details>
