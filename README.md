@@ -2,10 +2,13 @@
 
 ## Sections
 
-
+<details>
   <summary>🚀 Introduction</summary>
   This is the introduction section of the README.
-
+  ```
+  Hey
+  ```
+</details>
 
 <details>
   <summary>🛠 Installation</summary>
